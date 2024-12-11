@@ -42,7 +42,7 @@ boolean increasing = true;
 char ssid[50]; // your network SSID (name)
 char pass[50]; // your network password (use for WPA, or use as key for WEP)
 
-const char kHostname[] = "http://3.14.146.168/data";
+const char kHostname[] = "http://3.14.146.168:5000/data";
 const int kNetworkTimeout = 30 * 1000;
 const int kNetworkDelay = 1000;
 int startTime;
